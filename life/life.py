@@ -98,7 +98,7 @@ class Game:
         h, w = pat.grid.shape
         r0 = r - h // 2
         c0 = c - w // 2
-        self.board[r0 : r0 + h, c0 : c0 + w] = pat.grid
+        self.board[r0:r0 + h, c0:c0 + w] = pat.grid
 
 
 class Pattern:
